@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 407 38" width="407" height="38">
+	<defs>
+		<image width="182" height="38" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALYAAAAmAQMAAABTWPMEAAAAAXNSR0IB2cksfwAAAANQTFRF9cUHPJw6SQAAABFJREFUeJxjYBgFo2AUDBYAAAOQAAHEha3/AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { opacity: 0.278;fill: #f5c506 } 
+	</style>
+	<g id="player">
+		<path id="Rounded Rectangle 1" class="shp0" d="M8 12L402 12C404.76 12 407 14.24 407 17L407 19C407 21.76 404.76 24 402 24L8 24C5.24 24 3 21.76 3 19L3 17C3 14.24 5.24 12 8 12Z" />
+		<use id="Layer 14" href="#img1" x="0" y="0" />
+	</g>
+</svg>

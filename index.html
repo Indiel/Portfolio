@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="page-header">
+        <div class="wrapper">
+            <section class="author">
+                <h1 class="author__specialty">Junior Frontend Developer</h1>
+                <h2 class="author__name">Aleksandra Ivanenko</h2>
+                <div class="author__photo">
+                    <img src="img/photo-full.jpg" width="100%" alt="Photo">
+                </div>
+            </section>
+            <section class="contacts">
+                <ul class="contacts__list">
+                    <li class="contacts__item">
+                        Email: <a href="mailto:ksandra.ivanenko@gmail.com">ksandra.ivanenko@gmail.com</a>
+                    </li>
+                    <li class="contacts__item">
+                        Telegram: <a href="https://t.me/ksandra_indiel">@ksandra_indiel</a>
+                    </li>
+                    <li class="contacts__item">
+                        Phone: <a href="tel:+380968604472">+380968604472</a>
+                    </li>
+                    <li class="contacts__item">
+                        Github: <a href="https://github.com/indiel">Indiel</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </header>
+    <main class="main-header">
+        <div class="main-header__wrapper wrapper">
+            <section class="education">
+                <h2 class="education-title title">Education</h2>
+                <ol class="education__list">
+                    <li class="education__item">
+                        HTMLAcademy - Professional JavaScript, Level 1 (01.2018 – 03.2018)
+                    </li>
+                    <li class="education__item">
+                        V. N. Karazin Kharkiv National University (09.2014 - 07.2018)
+                    </li>
+                </ol>
+            </section>
+
+            <section class="projects">
+                <h2 class="title">Projects</h2>
+                <div class="swiper-container">
+                    <button class="swiper__btn">Description</button>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slide">
+                                <div class="slide__description">
+                                    <h3 class="slide__title">TheYalow</h3>
+                                    <ul class="slide__list">
+                                        <li class="slide__item">HTML5/CSS3</li>
+                                        <li class="slide__item">Flexbox</li>
+                                        <li class="slide__item">Adaptive</li>
+                                        <li class="slide__item">Pixel perfect</li>
+                                    </ul>
+                                </div>
+                                <a class="slide__link" href="projects/theyalow/index.html">
+                                    <picture class="slide__img">
+                                        <img src="img/theyalow-desktop.jpg" alt="theyalow">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide">
+                                <div class="slide__description">
+                                    <h3 class="slide__title">Repair Design Project</h3>
+                                    <ul class="slide__list">
+                                        <li class="slide__item">HTML5</li>
+                                        <li class="slide__item">Sass</li>
+                                        <li class="slide__item">Flexbox/Grid</li>
+                                        <li class="slide__item">Responsive</li>
+                                        <li class="slide__item">Webpack</li>
+                                    </ul>
+                                </div>
+                                <a class="slide__link" href="projects/repair-design-project/index.html">
+                                    <picture class="slide__img">
+                                        <img src="img/repair-design-project-desktop.jpg" alt="repair-design-project">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="js/swiper.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 407 38" width="407" height="38">
+	<defs>
+		<image width="182" height="38" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALYAAAAmAQMAAABTWPMEAAAAAXNSR0IB2cksfwAAAANQTFRF9cUHPJw6SQAAABFJREFUeJxjYBgFo2AUDBYAAAOQAAHEha3/AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="player">
+		<use id="Layer 14" href="#img1" x="0" y="0" />
+	</g>
+</svg>
