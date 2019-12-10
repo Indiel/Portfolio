@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.iframe-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.btn {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+
+    box-sizing: border-box;
+    padding: 10px 0;
+    width: 100px;
+    height: 50px;
+
+    font-family: inherit;
+    font-size: 20px;
+    text-align: center;
+    
+    color: rgb(35, 70, 10);
+    background-color: rgb(175, 255, 120);
+    border: 2px solid rgb(35, 70, 10);
+
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn--desktop,
+.btn--mobile {
+    bottom: 120px;
+}
+
+.btn--mobile  {
+    display: block;
+}
+
+.btn--desktop {
+    display: none;
+}
+
+@media(max-width: 768px) {
+    .btn--mobile {
+        display: none;
+    }
+
+    .btn--desktop {
+        display: none;
+    }
+}
